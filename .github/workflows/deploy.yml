@@ -1,5 +1,9 @@
 name: Build and Deploy Flutter Web to gh-pages
 
+# Allow workflow to push to repository using the GITHUB_TOKEN
+permissions:
+  contents: write
+
 on:
   push:
     branches:
