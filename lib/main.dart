@@ -334,9 +334,9 @@ class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Перегляд заповнених даних')),
+      appBar: AppBar(title: const Text('Назад')),
       body: Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.all(5),
         child: filledData.isEmpty
             ? const Center(
                 child: Text(
@@ -356,7 +356,7 @@ class SecondPage extends StatelessWidget {
                     ),
                     elevation: 2,
                     child: Padding(
-                      padding: const EdgeInsets.all(5),
+                      padding: const EdgeInsets.all(1),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
