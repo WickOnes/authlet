@@ -1,6 +1,6 @@
 # authlet
 
-A new Flutter project.
+A new Flutter project. Deployed at https://wickones.github.io/authlet/
 
 ## Getting Started
 
